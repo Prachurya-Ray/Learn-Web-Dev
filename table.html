@@ -8,33 +8,45 @@
         table,td,tr,thead,th,tfoot{
             border: 1px solid black;
             border-spacing: 0;
-            padding: 5px;
+            /* padding: 5px; */
         }
     </style>
 </head>
 <body>
-    <table style="border: 5px">
+    <table>
+        <caption>Health Status</caption>
         <thead>
-            <th colspan="2" style="background-color: aqua;">Breakfast</th>
             <tr>
-                <th>Cost</th>
-                <th>Item</th>    
+                <th rowspan="2">Satet of Health</th>
+                <th colspan="2">Fasting Values</th>
+                <th>After Eating</th>
+            </tr>
+            <tr>
+                <th>Minimum</th>
+                <th>Maximum</th>
+                <th>2hr after Eating</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td>50</td>
-                <td>Bread</td>
+                <td>Healthy</td>
+                <td>70</td>
+                <td>100</td>
+                <td>less than 140</td>
             </tr>
             <tr>
-                <td>10</td>
-                <td>Jam</td>
-            </tr>            
+                <td>Pre-Dia</td>
+                <td>101</td>
+                <td>126</td>
+                <td>140-200</td>
+            </tr>
+            <tr>
+                <td>Diabetics</td>
+                <td>More than 126</td>
+                <td>NA</td>
+                <td>More than 200</td>
+            </tr>
         </tbody>
-        <tfoot>
-            <td>60</td>
-            <td>Total</td>
-        </tfoot>
     </table>
 </body>
 </html>
