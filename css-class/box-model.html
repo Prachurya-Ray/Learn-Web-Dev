@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            height: 100px;
+            width: 200px;
+            border: 2px solid black;
+            margin: 10px;
+            padding: 25px;
+
+            /* technique to stay the stay the box size as same while changing content size while in padding */
+            box-sizing: border-box;
+        }
+        #box1{
+            background-color: orange;
+        }
+        #box2{
+            background-color: white;
+        }
+        #box3{
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <div class="box" id="box1">A</div>
+    <div class="box" id="box2">B</div>
+    <div class="box" id="box3">C</div>
+</body>
+</html>

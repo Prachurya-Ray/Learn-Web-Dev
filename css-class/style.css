@@ -1,0 +1,12 @@
+.now{
+    color: blue;
+}
+#this{
+    color: brown;
+}
+#first-button{
+    color: red;
+}
+#first-button:hover{
+    background-color: antiquewhite;
+}
