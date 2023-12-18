@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            border: 1px solid black;
+            height: 200px;
+            width: 150px;
+            background-image: linear-gradient(to right bottom, yellow,orange,red);
+            background-image: linear-gradient(45deg, yellow,orange,red);
+
+        }
+        .rad{
+            border: 1px solid black;
+            height: 200px;
+            width: 150px;
+            background-image: radial-gradient(yellow 10%,orange,red);
+            
+        }
+        .con{
+            border: 1px solid black;
+            height: 200px;
+            width: 150px;
+            background-image: conic-gradient(yellow,orange,red 90deg);
+            
+        }
+        h1{
+            /* for one shadow text-shadow: 5px 5px 5px red */
+            text-shadow: 5px 5px 5px red, 7px 7px 7px green;
+        }
+        .boxShadow{
+            background-color: aqua;
+            height: 200px;
+            width: 150px;
+            box-shadow: -10px -10px 10px red, 15px 15px 15px yellow;
+        }
+
+        /* border using box shadow */
+        .borderShadow{
+            padding: 5px;
+            height: 150px;
+            width: 200px;
+            box-shadow: 0px 0px 15px black;
+        }
+    </style>
+</head>
+<body>
+    <h1>This is Text Shadow</h1>
+    <div class="boxShadow">This is Box Shadow</div><br>
+    <div class="borderShadow">This is Box Shadow Border</div>
+    <hr>
+    <div class="box">This is a box</div>
+    <div class="rad">This is a box</div>
+    <div class="con">This is a box</div>
+    
+</body>
+</html>
