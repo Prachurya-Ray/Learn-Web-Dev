@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #wrapper{
+            height: 100vh;
+            /* width: 100vh; */
+            overflow-x: hidden;
+            overflow-y: scroll;
+            perspective: 10px;
+        }
+        .background, .foreground{
+            /* max-width: 100%; */
+            
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            object-fit: cover;
+        }
+        .container{
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            transform-style: preserve-3d;
+            z-index: -1;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+
+        <div class="container">
+            <img src="/austin-distel-h1RW-NFtUyc-unsplash.jpg" alt="" class="background">
+            <img src="/austin-distel-JhjTrdCEdJo-unsplash.jpg" alt="" class="foreground">
+            <h1>Luxury</h1>
+        </div>
+
+    </div>
+</body>
+</html>
