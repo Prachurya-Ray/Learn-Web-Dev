@@ -80,14 +80,40 @@
             border-radius: 5px;
         }
 
+        #goToLink{
+            text-align: right;
+            color: aliceblue;   
+            text-decoration: none;
+        }
+        #goToLink:hover{
+            color: lightskyblue;
+        }
+        footer{
+            background-color: gray;
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+        footer ul{
+            text-align: center;
+            /* color: white; */
+            /* text-decoration: none; */
+            /* padding-left: 50px; */
+        }
+        footer a{
+            text-decoration: none;
+            /* color: white; */
+        }
     </style>
 </head>
 <body>
-    <div class="head-name">   
-        <h1>Linus Torvalds</h1>
-        <i>The Creator of Linux</i> 
-    </div>
-    <!-- <a href="#resources">Go to Resources</a> -->
+    <header>
+        <div class="head-name">   
+            <h1>Linus Torvalds</h1>
+            <i>The Creator of Linux</i> <br>
+            <!-- <a href="#resources" id="goToLink">Go to Resources >></a> -->
+        </div>
+    </header>
 
     <div class="about">
         
@@ -127,13 +153,16 @@
         <q>One of the most influential people in the world.</q><br><br>
         <cite>-- Time Magazine <a href="https://www.thefamouspeople.com/profiles/linus-torvalds-3972.php" target="_blank"  style="color: blue;">The Famous People</a></cite>
     </blockquote>
+    <br><br><br>
 
-    <h2 id="resources">Resources</h2>
-    Learn more about Linus Torvalds and his work:
-    <ul>
-        <li><a href="https://en.wikipedia.org/wiki/Linus_Torvalds" target="_blank" style="color: blue;">Wikipedia page on Linus Torvalds</a></li>
-        <li><a href="https://www.linustorvalds.com/" target="_blank" style="color: blue;">Linus Torvalds's personal website</a></li>
-        <li><a href="https://www.kernel.org/" target="_blank" style="color: blue;">The Linux Kernel Archives</a></li>
-    </ul>
+    <footer>
+        <h2 id="resources">Resources</h2>
+        Learn more about Linus Torvalds and his work:
+        <ul>
+            <li><a href="https://en.wikipedia.org/wiki/Linus_Torvalds" target="_blank" style="color: blue;">Wikipedia page on Linus Torvalds</a></li>
+            <li><a href="https://www.linustorvalds.com/" target="_blank" style="color: blue;">Linus Torvalds's personal website</a></li>
+            <li><a href="https://www.kernel.org/" target="_blank" style="color: blue;">The Linux Kernel Archives</a></li>
+        </ul>
+    </footer>
 </body>
 </html>
