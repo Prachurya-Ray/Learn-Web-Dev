@@ -4,12 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .search{
+            margin: 25px;
+            padding: 10px;
+        }
+        form {
+            margin-right: 20px; 
+            display: inline-block; /* Ensures forms appear in a line */
+        }
+    </style>
 </head>
 <body>
-    <form action="https://www.google.com/search" target="_blank">
-        <input type="text" name="q" placeholder="Search Here">
-        <button>Submit</button>
-        <button type="reset">Reset</button>
-    </form>
+    <div class="search">
+        <form action="https://www.google.com/search" target="_blank">
+            <img src="/new-google-favicon-512.png" alt="" height="100px" width="100px"> <br>
+            <input type="text" name="q" placeholder="Search Here"> <br><br>
+            <button>Submit</button>
+            <button type="reset">Reset</button>
+        </form>
+        <form action="https://www.youtube.com/results?" target="_blank">
+            <img src="/YouTube_social_white_square_(2017).png" alt="" height="100px" width="100px"> <br>
+            <input type="text" name="search_query" placeholder="Search Here"> <br><br>
+            <button>Submit</button>
+            <button type="reset">Reset</button>
+        </form>    
+    </div>
 </body>
 </html>
