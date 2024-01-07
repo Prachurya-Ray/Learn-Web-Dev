@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* * { margin: 0; padding: 0;} */
+        form{
+            border: 5px solid red;
+            background-color: gainsboro;
+            padding: 10px;
+            text-align: center;
+        }
+        form input, textarea{
+            background-color: gainsboro;
+            border: 0px solid black;
+            border-radius: 15px;
+            padding: 10px;
+            box-shadow: inset 4px 4px 4px 0 grey, inset -4px -4px 4px 0 white;
+        }
+        form textarea{
+            box-shadow: inset 5px 5px 5px 0 grey, inset -5px -5px 5px 0 white;
+        }
+
+    </style>
+</head>
+<body>
+    <form action="">
+        <label for="">Send us a Message</label><br><br>
+        <input type="text" id="userFirstName" placeholder="First Name">
+        <input type="text" id="userLastName" placeholder="Last Name"><br><br>
+        <input type="text" id="userMail" placeholder="Mail">
+        <input type="text" id="userPhone" placeholder="Phone"><br><br>
+        <textarea name="" id="userMessage" cols="45" rows="10" placeholder="Enter Your Message"></textarea><br><br>
+        <button type="submit">Send Message</button>
+    </form>
+</body>
+</html>
